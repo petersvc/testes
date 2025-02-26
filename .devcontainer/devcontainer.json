@@ -1,0 +1,28 @@
+{
+    "name": "testes",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "testes",
+    "workspaceFolder": "/app",
+    "shutdownAction": "stopCompose",
+    "mounts": [
+        "source=${localEnv:HOME}/.gitconfig-personal,target=/home/ubuntu/.gitconfig,type=bind",
+        "source=${localEnv:HOME}/.ssh,target=/home/ubuntu/.ssh,type=bind"
+    ],
+    "postCreateCommand": "sh .devcontainer/scripts/post-create.sh",
+    "overrideCommand": true,
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Codeium.codeium",
+                "usernamehw.errorlens",
+                "cliffordfajardo.highlight-line-vscode",
+                "redhat.java",
+                "vscjava.vscode-java-debug",
+                "vscjava.vscode-java-test",
+                "vscjava.vscode-maven",
+                "VMware.vscode-spring-boot"
+                // "SonarSource.sonarlint-vscode"
+            ]
+        }
+    }
+}

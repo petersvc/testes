@@ -1,0 +1,70 @@
+{
+    "symbols.hidesExplorerArrows": false,
+    "workbench.colorTheme": "Min Dark",
+    "editor.minimap.enabled": false,
+    // "[javascript]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    "files.autoSave": "afterDelay",
+    "workbench.startupEditor": "none",
+    "redhat.telemetry.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    // "[json]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.fontFamily": "'JetBrainsMono NF', 'Monospace'",
+    "terminal.integrated.fontSize": 12,
+    // "terminal.integrated.fontWeight": "900",
+    "explorer.confirmPasteNative": false,
+    "remote.autoForwardPortsSource": "hybrid",
+    "[java]": {
+        //"editor.suggest.snippetsPreventQuickSuggestions": false,
+    },
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    // "java.autobuild.enabled": false,
+    // "java.completion.enabled": true,
+    // "java.completion.guessMethodArguments": "off",
+    // "java.maxConcurrentBuilds": 1,
+    // "java.server.launchMode": "Hybrid",
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning" // Desabilitar warnings se estiverem causando lentidão
+    ],
+    "errorLens.fontSize": "10px",
+    "workbench.iconTheme": "symbols",
+    "editor.renderWhitespace": "none",
+    "editor.stickyScroll.enabled": false,
+    "breadcrumbs.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "'JetBrainsMono NF', 'Monospace'",
+    "editor.fontWeight": "600",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.lineHeight": 1.5,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.productIconTheme": "el-vsc-v1-icons",
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "workbench.statusBar.visible": true,
+    "highlightLine.borderColor": "#333333",
+    "highlightLine.borderWidth": "1px",
+    "window.titleBarStyle": "custom",
+    "chat.commandCenter.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "codeium.disableSupercomplete": false,
+    "codeium.enableExplainProblem": false,
+    "sonarlint.disableTelemetry": false,
+    "sonarlint.connectedMode.connections.sonarqube": [
+        {
+            "serverUrl": "http://sonarqube:9000",
+            "connectionId": "http-sonarqube-9000"
+        }
+    ],
+    "sonarlint.focusOnNewCode": true
+}
